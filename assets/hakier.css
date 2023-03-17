@@ -1,0 +1,47 @@
+@import url("https://f.cdn.femboy.run/fonts/font-imports.css");
+
+:root {
+	--fg0: #ffffff;
+	--fg1: #00ff00;
+	--fg2: #979797;
+	
+	--bg0: #000000;
+	--bg1: #5f5f5f;
+}
+
+html {
+	min-height: 100vh;
+	background-color: var(--bg0);
+}
+
+body {
+	font-family: cc;
+	color: var(--fg0);
+	margin: 1em;
+}
+
+b {
+	color: var(--fg1)
+}
+
+a {
+	text-decoration: underline var(--fg1);
+	color: var(--fg1);
+	font-weight: bold;
+}
+
+hr {
+	color: var(--bg1);
+}
+
+ul {
+	list-style: none;
+}
+
+footer {
+	text-align: center;
+	/* position: fixed;
+	width: calc(100% - 2em);
+	bottom: 0;
+	background-color: #000000; */
+}
