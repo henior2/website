@@ -6,4 +6,4 @@ jobs:
     - name: curl
       uses: wei/curl@master
       with:
-        args: https://henior.kefir.ovh/sync-repo.php
+        args: https://kefir.ovh/sync-repo.php
